@@ -1,0 +1,107 @@
+
+
+body{
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container{
+
+    position: relative;
+    width: 300px;
+    height: 500px;
+    background: white;
+    border-radius: 20px;
+    padding: 20px; 
+    overflow: hidden;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    outline: 2px;
+    outline-style: solid;
+    outline-color: whitesmoke;
+
+
+}
+
+
+.searchbox{
+
+    width: 100%;
+    height: min-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+
+}
+
+.searchbox input{
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    padding-left: 35%;
+    color: gray;
+    user-select: auto;
+    
+}
+
+.information {
+
+    width: 96%;
+    height: 400px;
+    padding: 5px;
+    margin-top: 5%;
+    position: relative;
+    display: flex;
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: gray;
+    overflow: auto;
+}
+
+
+.wspage{
+
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+    background-color: white;
+    color: gray;
+    font-size: 25px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    margin-left: 15%;
+    outline: 2px;
+    outline-style: solid;
+    outline-color: whitesmoke;
+
+}
+
+.wdpage{
+
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+    background-color: white;
+    color: gray;
+    font-size: 25px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    margin-right: 15%;
+    outline: 2px;
+    outline-style: solid;
+    outline-color: whitesmoke;
+
+}
+
+.link{
+    padding-left: 10px;
+    text-decoration: none;
+    color: gray;
+    text-align: center;
+}
