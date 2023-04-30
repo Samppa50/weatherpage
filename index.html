@@ -8,33 +8,63 @@
     <title>Main page</title>
 </head>
 <body style="background-color: lightblue;">
+    <script src="script.js"></script>
     
     <div class="wdpage">
-        <a class="link" href="page2.html">&lt; Wind direction</a>
+        <a class="link" href="page2.html">&lt; WD</a>
     </div>
 
     <div class="container">
-            <div class="searchbox">
-                <input type="text" placeholder="Location...">
+            <div class="titlebox">
+                <H1 class="text">Last 50</H1>
             </div>
             <div class="information">
-                <p class="cities">fillertextfiller textfillertextfillertextfiller textfillertextfillertext fillertextfiller
-                     fillertextfiller fillertextfiller fillertextfiller fillertextfiller fillertextfiller fillertextfiller fillertextfiller
-                      fillertextfiller fillertextfiller fillertextfiller textfillertextfillertextfiller textfillertextfillertext fillertextfiller
-                       fillertextfiller fillertextfiller fillertextfiller fillertextfiller fillertextfiller fillertextfiller fillertextfiller fillertextfiller
-                        fillertextfiller fillertextfiller textfillertextfillertextfiller textfillertextfillertext fillertextfiller
-                        fillertextfiller fillertextfiller fillertextfiller fillertextfiller fillertextfiller fillertextfiller fillertextfiller
-                         fillertextfiller fillertextfiller fillertextfiller textfillertextfillertextfiller textfillertextfillertext fillertextfiller fillertextfiller
-                          fillertextfiller fillertextfiller fillertextfiller fillertextfiller fillertextfiller fillertextfiller fillertextfiller fillertextfiller fillertextfiller 
-                          textfillertextfillertextfiller textfillertextfillertext fillertextfiller fillertextfiller fillertextfiller fillertextfiller fillertextfiller fillertextfiller fillertextfiller fillertextfiller fillertextfiller
-                           fillertextfiller fillertextfiller </p>
-                
+                <table>
+                    <thead>
+                        <tr>
+                            <th>
+                                <p>ID</p>
+                            </th>
+                            <th>
+                                <p>Device ID</p>
+                            </th>
+                            <th>
+                                <p>Date</p>
+                            </th>
+                            <th>
+                                <p>WS</p>
+                            </th>
+                            <th>
+                                <p>WD</p>
+                            </th>
+                            <th>
+                                <p>HU IN</p>
+                            </th>
+                            <th>
+                                <p>HU OUT</p>
+                            </th>
+                            <th>
+                                <p>Light</p>
+                            </th>
+                            <th>
+                                <p>Rain</p>
+                            </th>
+                            <th>
+                                <p>Temp</p>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody id="data-output">
+
+
+                    </tbody>
+                </table>
             </div>
 
     </div>
 
     <div class="wspage">
-        <a class="link" href="page1.html">Wind speed ></a>
+        <a class="link" href="page1.html">WS ></a>
     </div>
 
 </body>

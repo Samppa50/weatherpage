@@ -6,13 +6,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-
+    margin: 0px;
 }
 
 .container{
 
     position: relative;
-    width: 300px;
+    width: 900px;
     height: 500px;
     background: white;
     border-radius: 20px;
@@ -27,7 +27,7 @@ body{
 }
 
 
-.searchbox{
+.titlebox{
 
     width: 100%;
     height: min-content;
@@ -36,22 +36,22 @@ body{
     justify-content: center;
     margin-top: 5%;
 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: gray;
+
 }
 
-.searchbox input{
+.text{
 
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: larger;
-    padding-left: 35%;
     color: gray;
-    user-select: auto;
-    
 }
+
 
 .information {
 
     width: 96%;
-    height: 400px;
+    height: 900px;
     padding: 5px;
     margin-top: 5%;
     position: relative;
@@ -66,7 +66,7 @@ body{
 .wspage{
 
     height: 50px;
-    width: 200px;
+    width: 100px;
     border-radius: 25px;
     background-color: white;
     color: gray;
@@ -74,7 +74,7 @@ body{
     align-items: center;
     position: relative;
     display: flex;
-    margin-left: 15%;
+    margin-left: 5%;
     outline: 2px;
     outline-style: solid;
     outline-color: whitesmoke;
@@ -84,7 +84,7 @@ body{
 .wdpage{
 
     height: 50px;
-    width: 200px;
+    width: 100px;
     border-radius: 25px;
     background-color: white;
     color: gray;
@@ -92,7 +92,7 @@ body{
     align-items: center;
     position: relative;
     display: flex;
-    margin-right: 15%;
+    margin-right: 5%;
     outline: 2px;
     outline-style: solid;
     outline-color: whitesmoke;
