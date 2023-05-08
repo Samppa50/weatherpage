@@ -44,3 +44,44 @@ fetch("http://webapi19sa-1.course.tamk.cloud/v1/weather/limit/50")
         }
         placeholder.innerHTML=out;
     })
+
+
+    fetch("http://webapi19sa-1.course.tamk.cloud/v1/weather/wind_direction")
+    .then(res => res.json())
+    .then(function(wds){
+        let placeholder = document.querySelector("#wd-output");
+        let out = "";
+        for (let wd of wds){
+            out += `
+                <tr>
+                    <td>
+                    ${wd.wind_direction}
+                    </td>
+                </tr>
+                
+    
+            `;
+        }
+        placeholder.innerHTML=out;
+    })
+    
+
+    fetch("http://webapi19sa-1.course.tamk.cloud/v1/weather/wind_speed")
+    .then(ress => ress.json())
+    .then(function(wss){
+        let placeholder = document.querySelector("#ws-output");
+        let out = "";
+        for (let ws of wss){
+            out += `
+                <tr>
+                    <td>
+                    ${ws.wind_speed}
+                    </td>
+                </tr>
+                
+    
+            `;
+        }
+        placeholder.innerHTML=out;
+    })
+    
